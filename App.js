@@ -16,13 +16,20 @@ const heading2 = React.createElement(
 },
 "heading 2 "
 );
+const heading3 = React.createElement(
+    "h1",
+{
+    id:"title",
+},
+"heading 3 "
+);
 
 const container= React.createElement(
     "h1",
 {
     id:"container",
 },
-[heading,heading2]
+[heading,heading2,heading3]
 );
 
 console.log(heading);
